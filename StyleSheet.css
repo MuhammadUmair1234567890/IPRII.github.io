@@ -1,5 +1,5 @@
 body {
-    font-family: "Monaco";
+    font-family: "Arial";
 }
 
 .flex-container {
@@ -14,7 +14,7 @@ body {
 header a {
     text-decoration: none;
     padding: 8px;
-    margin: 2px 0.5%;
+    margin: 1px 0.25%;
     font-size: 14px;
 }
 
@@ -28,6 +28,7 @@ header a {
     flex: none;
     width: 49%;
     background-image: url(img15.png);
+    
     color: white;
     text-align: center;
     padding: 5px;
@@ -80,7 +81,7 @@ header a {
     background-color: brown;
     color: white;
     display: block;
-    width: 180px;
+    width: 200px;
     margin: 10px auto;
     border-radius: 20px;
     text-decoration: none;
@@ -112,7 +113,7 @@ header a {
     background-color: brown;
     color: white;
     display: block;
-    width: 180px;
+    width: 200px;
     margin: 10px auto;
     border-radius: 20px;
     text-decoration: none;
@@ -159,11 +160,14 @@ a:hover {
 #footer2 a {
     display: inline-block;
     margin: 22px 20px;
+    color: gray;
 }
 
 #footer3 a {
     display: inline-block;
-    margin: 22px 20px;
+    margin: 15px 20px;
+    color: gray;
+    font-size: 12px;
 }
 .full-width{
     width: 30%;
